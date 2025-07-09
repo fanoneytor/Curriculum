@@ -11,14 +11,16 @@
 <body>
     <div class="container">
         <div class="leftSide">
+            <div id="language-switcher" class="language-switcher">ESP/ENG</div>
             <div class="profileText">
                 <div class="imgBox">
                     <img src="foto.jpeg" alt="foto">
                 </div>
-                <h2>Stefano <br>Arias Machado<br><span>Computer and Systems Engineer</span></h2>
+                <h2>Stefano <br>Arias Machado<br><span class="translate" data-es="Ingeniero de Sistemas y Computación"
+                        data-en="Computer and Systems Engineer">Computer and Systems Engineer</span></h2>
             </div>
             <div class="contactInfo">
-                <h3 class="title">Contact Info</h3>
+                <h3 class="title translate" data-es="Información de Contacto" data-en="Contact Info">Contact Info</h3>
                 <ul>
                     <li>
                         <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
@@ -43,26 +45,28 @@
                     </li>
                 </ul>
                 <div class="contactInfo education">
-                    <h3 class="title">Education</h3>
+                    <h3 class="title translate" data-es="Educación" data-en="Education">Education</h3>
                     <ul>
                         <li>
                             <h5>2013 - 2021</h5>
-                            <h4>Ingenieria de Sistemas y Computación</h4>
-                            <h4>Universidad Tecnologica de Pereira</h4>
+                            <h4 class="translate" data-es="Ingenieria de Sistemas y Computación"
+                                data-en="Systems and Computer Engineering">Ingenieria de Sistemas y Computación</h4>
+                            <h4 class="translate" data-es="Universidad Tecnologica de Pereira"
+                                data-en="Technological University of Pereira">Universidad Tecnologica de Pereira</h4>
                         </li>
                     </ul>
                 </div>
                 <div class="contactInfo language">
-                    <h3 class="title">Languages</h3>
+                    <h3 class="title translate" data-es="Idiomas" data-en="Languages">Languages</h3>
                     <ul>
                         <li>
-                            <span class="text">Spanish</span>
+                            <span class="text translate" data-es="Español" data-en="Spanish">Spanish</span>
                             <span class="percent">
                                 <div style="width: 90%;"></div>
                             </span>
                         </li>
                         <li>
-                            <span class="text">English</span>
+                            <span class="text translate" data-es="Inglés" data-en="English">English</span>
                             <span class="percent">
                                 <div style="width: 48%;"></div>
                             </span>
@@ -73,8 +77,10 @@
         </div>
         <div class="rightSide">
             <div class="about">
-                <h3 class="title2">Profile</h3>
-                <p>
+                <h3 class="title2 translate" data-es="Perfil" data-en="Profile">Profile</h3>
+                <p class="translate"
+                    data-es="Ingeniero de Sistemas y Computación con más de 4 años de experiencia en el desarrollo de software, especializado en entornos backend utilizando Java SE, Spring Boot y bases de datos como PostgreSQL y MySQL. También tengo experiencia en desarrollo frontend usando JavaScript, Angular y React, así como en automatización de pruebas, despliegue en la nube y orquestación de contenedores. He trabajado en soluciones para diversos sectores como salud, transporte, retail y trading, construyendo plataformas escalables, optimizando motores con lógica compleja de PL/SQL y liderando iniciativas técnicas. Formado en prácticas DevOps y computación en la nube con conocimiento práctico de servicios de AWS como EC2. Busco unirme a equipos donde pueda contribuir construyendo soluciones full-stack robustas y de alto rendimiento en entornos modernos y colaborativos."
+                    data-en="Systems and Computing Engineer with over 4 years of experience in software development, specializing in backend environments using Java SE, Spring Boot, and databases such as PostgreSQL and MySQL. I also have experience in frontend development using JavaScript, Angular, and React, as well as test automation, cloud deployment, and container orchestration. I’ve worked on solutions across various sectors including healthcare, transportation, retail, and trading, building scalable platforms, optimizing engines with complex PL/SQL logic, and leading technical initiatives. Trained in DevOps practices and cloud computing with working knowledge of AWS services like EC2. I’m looking to join teams where I can contribute by building robust and high-performance full-stack solutions within modern and collaborative environments.">
                     Systems and Computing Engineer with over 4 years of experience in software development, specializing
                     in backend environments using Java SE, Spring Boot, and databases such as PostgreSQL and MySQL.
                     I also have experience in frontend development using JavaScript, Angular, and React, as well as test
@@ -88,15 +94,20 @@
                 </p>
             </div>
             <div class="about">
-                <h3 class="title2">Experience</h3>
+                <h3 class="title2 translate" data-es="Experiencia" data-en="Experience">Experience</h3>
                 <div class="box">
                     <div class="year_company">
-                        <h5>2024 - at the moment</h5>
+                        <h5 class="translate" data-es="2024 - a la fecha" data-en="2024 - at the moment">2024 - at the
+                            moment</h5>
                         <h5>Sunbelt</h5>
                     </div>
                     <div class="text">
-                        <h4>Full Stack Developer</h4>
-                        <p>Analyze and develop solutions at the backend and frontend level,
+                        <h4 class="translate" data-es="Desarrollador Full Stack" data-en="Full Stack Developer">Full
+                            Stack Developer</h4>
+                        <p class="translate"
+                            data-es="Analizar y desarrollar soluciones a nivel de backend y frontend, desplegar y monitorear su operabilidad."
+                            data-en="Analyze and develop solutions at the backend and frontend level, deploy and monitor their operability.">
+                            Analyze and develop solutions at the backend and frontend level,
                             deploy and monitor their
                             operability.</p>
                     </div>
@@ -107,8 +118,12 @@
                         <h5>Audifarma S.A</h5>
                     </div>
                     <div class="text">
-                        <h4>Software Development Engineer</h4>
-                        <p>Development of software-level solutions that meet the requirements of internal and external
+                        <h4 class="translate" data-es="Ingeniero de Desarrollo de Software"
+                            data-en="Software Development Engineer">Software Development Engineer</h4>
+                        <p class="translate"
+                            data-es="Desarrollo de soluciones a nivel de software que cumplan con los requerimientos de los clientes internos y externos con los más altos estándares de calidad."
+                            data-en="Development of software-level solutions that meet the requirements of internal and external clients with the highest quality standards.">
+                            Development of software-level solutions that meet the requirements of internal and external
                             clients with the highest quality standards.</p>
                     </div>
                 </div>
@@ -118,14 +133,19 @@
                         <h5>URtrading</h5>
                     </div>
                     <div class="text">
-                        <h4>Software Developer</h4>
-                        <p>Development of expert advisors and indicators, customized in mql4 and mql5 language, back
+                        <h4 class="translate" data-es="Desarrollador de Software" data-en="Software Developer">Software
+                            Developer</h4>
+                        <p class="translate"
+                            data-es="Desarrollo de asesores expertos e indicadores, personalizados en lenguaje mql4 y mql5, back testing para los mismos."
+                            data-en="Development of expert advisors and indicators, customized in mql4 and mql5 language, back testing for them.">
+                            Development of expert advisors and indicators, customized in mql4 and mql5 language, back
                             testing for them.</p>
                     </div>
                 </div>
             </div>
             <div class="about skills">
-                <h3 class="title2">Professional Skills</h3>
+                <h3 class="title2 translate" data-es="Habilidades Profesionales" data-en="Professional Skills">
+                    Professional Skills</h3>
                 <div class="box">
                     <h4>Java</h4>
                     <span class="percent">
@@ -179,6 +199,7 @@
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

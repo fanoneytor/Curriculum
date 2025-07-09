@@ -7,6 +7,20 @@
     box-sizing: border-box;
     font-family: 'Roboto+Slab', sans-serif;
 }
+.language-switcher .selected {
+    color: #03a9f4;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
 body{
     background: #212534;
     display: flex;
